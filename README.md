@@ -2,11 +2,10 @@
 A clone of Netflix with less features.
  ## Screenshots / Gifs
  ![Screenshot](/src/screenshot.png)
-
  ## Motivation
-
+I wanted to recreate the Netflix frontend for practice and design insight.
  ## How to
-
+To check out the sight go to *website name*.
 
  ## Tech/framework used
  <b> Built with </b>
