@@ -28,11 +28,10 @@ function Row({ title, fetchUrl, isLargeRow}) {
   }
   
   const handleClick = (movie) => {
-    console.log(movie);
     if (trailerUrl){
       setTrailerUrl('');
     }else{
-      movieTrailer(movie?.name || "")
+      movieTrailer(movie?.name || movie?.title || "")
       .then((url) => {
         const urlParams = new URLSearchParams(new URL(url).search);
         setTrailerUrl(urlParams.get('v'));
