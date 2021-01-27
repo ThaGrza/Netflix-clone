@@ -26,7 +26,7 @@ function Row({ title, fetchUrl, isLargeRow}) {
       autoplay: 1,
     }
   }
-  
+
   const handleClick = (movie) => {
     if (trailerUrl){
       setTrailerUrl('');
@@ -43,8 +43,7 @@ function Row({ title, fetchUrl, isLargeRow}) {
   return (
     <div className="row">
       <h2>{title}</h2>
-
-      <div className="rowPosters"> 
+      <div className="rowPosters">
         {movies.map((movie) => (
         <img 
         key={movie.id}
