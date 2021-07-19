@@ -2,7 +2,6 @@
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
-  /* white-space: nowrap; */
   padding: 20px;
 }
 
