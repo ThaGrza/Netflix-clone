@@ -1,5 +1,4 @@
-import REACT_APP_API_KEY from 'react-dotenv';
-  const apiKey = process.env.REACT_APP_API_KEY;
+const apiKey = process.env.REACT_APP_API_KEY;
 
  const requests = {
    fetchTrending: `/trending/all/week?api_key=${apiKey}&language=en-us`,
